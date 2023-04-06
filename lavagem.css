@@ -1,0 +1,32 @@
+header{ 
+    background:palevioletred; /*cor fundo*/
+    padding: 20px 0;
+}
+
+.cabecario{
+    position: relative; /*texto no meio*/;
+    width: 500px; /*largura da caixa*/;
+    margin: 0 auto; /*calcule margem*/;
+}
+
+nav{ 
+    position: absolute; /*ocupa todo espaço*/
+    top: 110px; /*ficar no topo*/ 
+    right: 0px; /*alinhando a direita*/
+}
+
+nav li{ 
+    display: inline; /*ficar na horizontal*/
+    margin: 0 0 0 15px; /*espaço para esquerda*/
+}
+nav a{ 
+    text-transform: uppercase; /*maiusculo*/
+    color: rgb(255, 1, 179); /* cor letra*/
+    font-weight: bold; /*texto*/
+    font-size: 19px; /* tamanho do texto*/
+    text-decoration: none; /*tirar sublinhado*/
+}
+  nav a:hover{ 
+    color: blue;
+    text-decoration: underline;
+  }
